@@ -2,6 +2,7 @@ import React from 'react'
 import './HomeComponent.css'
 import CreateComponent from '../CreateComponent/CreateComponent'
 import PublishComponent from '../PublishComponent/PublishComponent'
+import FooterComponent from '../FooterComponent/FooterComponent'
 function HomeComponent() {
   return (
     <div>
@@ -11,6 +12,7 @@ function HomeComponent() {
         </div>
         <CreateComponent/>
         <PublishComponent/>
+        <FooterComponent/>
     </div>
   )
 }

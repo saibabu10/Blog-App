@@ -1,0 +1,7 @@
+.footer{
+    display: flex;
+    font-size: 25px;
+}
+.footer div{
+    margin: 0px 10px;
+}
