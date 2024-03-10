@@ -1,8 +1,13 @@
 import React from 'react'
-
+import './CreateComponent.css'
 function CreateComponent() {
   return (
-    <div>CreateComponent</div>
+    <div>
+        <div className="create-content">
+        <h1 className='cr-content-title'>Create a Blog</h1>
+        <button className='cr-btn'>Create</button>
+        </div>
+    </div>
   )
 }
 

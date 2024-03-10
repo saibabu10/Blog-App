@@ -1,0 +1,15 @@
+.create-content{
+    text-align: center;
+}
+.cr-content-title{
+    font-size: 85px;
+    margin-bottom: 10px;
+}
+.cr-btn{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 6rem;
+    border: none;
+    cursor: pointer;
+}
