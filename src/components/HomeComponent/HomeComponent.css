@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+}
+.nav-left,
+.nav-right{
+    padding: 0% 2%;
+    cursor: pointer;
+    font-size: 32px;
+}
+.nav-right:hover{
+   color: rgb(126, 195, 255);
+}
