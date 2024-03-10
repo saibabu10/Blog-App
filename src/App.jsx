@@ -1,10 +1,15 @@
-import { useState } from 'react'
+
 import './App.css'
+import CreateComponent from './components/CreateComponent/CreateComponent';
+import HomeComponent from './components/HomeComponent/HomeComponent';
+import PublishComponent from './components/PublishComponent/PublishComponent';
 
 function App() {
   return (
     <>
-      <h1>Home</h1>
+     <HomeComponent/>
+     <CreateComponent/>
+     <PublishComponent/>
     </>
   )
 }
