@@ -10,9 +10,15 @@ function HomeComponent() {
             <div className="nav-left">Blogo🏃🏻</div>
             <div className="nav-right">Sign In</div>
         </div>
-        <CreateComponent/>
+        <div>
+        <div className="create-content">
+        <h1 className='cr-content-title'>Create Your Blog</h1>
+        <button className='cr-btn'>CREATE</button>
+        </div>
+    </div>
         <PublishComponent/>
         <FooterComponent/>
+        <CreateComponent/>
     </div>
   )
 }
